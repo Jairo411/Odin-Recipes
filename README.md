@@ -3,7 +3,7 @@
 Creating a basic recipe website to further develop my web development
 skills.
 
-Developing this small project hopefully further develops my knowlegdge of:
--HTML 
--Web design 
+Developing this small project hopefully further develops my knowlegdge of:  
+-HTML  
+-Web design  
 -The process of web development
