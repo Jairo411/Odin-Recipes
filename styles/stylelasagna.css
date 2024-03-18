@@ -1,0 +1,9 @@
+@import "styleindex.css";
+
+
+.lasagna{
+    width: 640px;
+    height: 460px;
+    margin: 0 auto;
+    display: block;
+}
