@@ -1,0 +1,57 @@
+@import "styleindex.css";
+
+
+.Pizza{
+    width: 640 px;
+    height: 460 px;
+    display: block;
+    margin: 0 auto;
+}
+
+.P-description{
+    text-align: center;
+    color: #d5f00e;
+}
+
+.P-paragraph{
+    text-align: center;
+}
+
+.Ingredients-sub{
+    color: #d5f00e;
+}
+
+.Pizza-sub{
+    color: #d5f00e;
+}
+
+.Pizza-sauce-sub{
+    color: #d5f00e;
+}
+
+.Other-sub{
+    color: #d5f00e;
+}
+
+.Method-sub{
+    color: #d5f00e;
+}
+
+.Dough-sub{
+    color: #d5f00e;
+}
+
+.Pizza-sauce-2-sub{
+    color: #d5f00e;
+}
+
+.Pizza-assembly-sub{
+    color: #d5f00e;
+}
+
+.Extra-sub{
+    color:#d5f00e;
+}
+.Calzone-sub{
+    color: #d5f00e;
+}

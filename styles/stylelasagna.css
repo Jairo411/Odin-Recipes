@@ -1,9 +1,56 @@
 @import "styleindex.css";
 
 
-.lasagna{
+.lasagna {
     width: 640px;
     height: 460px;
     margin: 0 auto;
     display: block;
+}
+
+.sub-lasagna {
+    text-align: center;
+    color: #cc423d;
+}
+
+.description-box {
+    border: #d5f00e 2px double;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.sub-ingredients {
+    text-align: center;
+    color: #cc423d;
+}
+
+.ingredients-box {
+    border: #d5f00e 2px double;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.unordered {
+    list-style-type: none;
+}
+
+.unordered li {
+    text-align: center;
+}
+
+.unordered li::before {
+    content: "▪";
+    color: #cc423d;
+}
+
+.sub-methods {
+    color: #cc423d;
+    text-align: center;
+}
+
+.methods-box {
+    border: #d5f00e 2px double;
+    width: 800px;
+    margin: 0 auto;
 }
