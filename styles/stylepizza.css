@@ -17,24 +17,136 @@
     text-align: center;
 }
 
+.main-card{
+    border:#d5f00e 2px double;
+}
 .Ingredients-sub{
     color: #d5f00e;
+    text-align: center;
 }
+.parent-flexbox{
+    display: flex;
+}
+
+.child-flexbox-element.dough{
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+
 
 .Pizza-sub{
     color: #d5f00e;
 }
 
+.Pizza-unordered{
+    list-style:none;
+}
+
+.Pizza-unordered li::before{
+    content: "▪";
+    margin-right: 10px;
+    color: #cc423d;
+}
+
+
 .Pizza-sauce-sub{
     color: #d5f00e;
+}
+.sauce-unordered{
+    list-style:none;
+}
+
+.sauce-unordered li::before{
+    content: "▪";
+    margin-right:10px;
+    color: #cc423d;
 }
 
 .Other-sub{
     color: #d5f00e;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+.Extra-ingredients-container{
+    margin-bottom:40px;
+}
+
+.Other-unordered{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.Other-unordered li::before{
+    content: "▪";
+    margin-right:10px;
+    color: #cc423d;
+}
+
+.parent-flexbox2
+{
+    display: flex;
+}
+
+.child-flexbox2{
+    flex: initial;
+}
+
+.child-flexbox2.first-element li{
+    padding: 5px;
+}
+.Pizza-assembly-container{
+    margin: 60px auto;
+    height: 90px;
+    text-align: center;
+}
+
+
+.Pizza-assembly-container ol{
+    list-style: none;
+    counter-reset: li;
+}
+
+.Pizza-assembly-container li::before{
+    content: counter(li);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.Pizza-assembly-container li
+{
+    counter-increment:li;
+    padding:3.5px;
+
+}
+
+.Extra-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Extra-container ol{
+    list-style:none;
+    counter-reset: li;
+}
+
+.Extra-container li::before{
+    content: counter(li);
+    display:inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.Extra-container li{
+    counter-increment:li;
 }
 
 .Method-sub{
     color: #d5f00e;
+    text-align: center;
 }
 
 .Dough-sub{
@@ -43,6 +155,10 @@
 
 .Pizza-sauce-2-sub{
     color: #d5f00e;
+}
+
+.child-flexbox2.second-element li{
+    padding: 5px;
 }
 
 .Pizza-assembly-sub{

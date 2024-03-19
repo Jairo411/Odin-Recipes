@@ -1,0 +1,88 @@
+@import "styleindex.css";
+
+
+.Lospollos{
+    width: 640px;
+    height: 460;
+    margin: 0 auto;
+    display: block;
+}
+
+.p-description{
+    color: #d5f00e;
+    text-align: center;
+}
+
+.p-description-container{
+    text-align: center;
+}
+
+.Ingredients-sub{
+    color:#d5f00e;
+    text-align: center;
+}
+
+.Flexbox-container-parent{
+    display: flex;
+    border:#d5f00e 2px double;
+}
+
+.Flexbox-container-child{
+    padding: 20px;
+}
+
+.Flexbox-container-child.element1
+{
+    margin-left: 250px;
+}
+
+.Flexbox-container-child.element2
+{
+    margin-left:300px;
+}
+
+.Chicken-brine-subtitle{
+    color:#d5f00e;
+
+}
+
+.Chicken-batter-sub{
+    color:#d5f00e;
+}
+
+.Fires-batter-sub{
+    color:#d5f00e;
+}
+
+.Method-sub{
+    color: #d5f00e;
+    text-align: center;
+}
+
+.Chicken-method-sub{
+    color: #d5f00e;
+}
+
+.Curly-sub{
+    color: #d5f00e;
+}
+
+.Method-container{
+    text-align: center;
+}
+
+.Method-container ol{
+    list-style: none;
+    counter-reset: li;
+}
+
+.Method-container li::before{
+    content: counter(li);
+    display:inline-block;
+    width: 1em; 
+    margin-left: -1em;
+}
+
+.Method-container li{
+    counter-increment: li;
+}
